@@ -2,11 +2,11 @@ import React from 'react';
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://haunted-wizard-63978-48bf82cc3a5b.herokuapp.com',
 });
 
 export const axiosPrivate = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://haunted-wizard-63978-48bf82cc3a5b.herokuapp.com',
   headers: { 'Content-Type': 'application/json' },
   // withCredentials: true,
 

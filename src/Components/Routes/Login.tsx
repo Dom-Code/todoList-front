@@ -27,7 +27,7 @@ const Login = () => {
 
     axios({
       method: 'post',
-      url: 'http://localhost:4000/api/login',
+      url: 'https://haunted-wizard-63978-48bf82cc3a5b.herokuapp.com/login',
       data: loginData,
     })
       .then((response) => {
